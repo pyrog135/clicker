@@ -1,5 +1,5 @@
- /* style */
- button{
+/* style */
+button{
     cursor: pointer;
   }
   h2 {
@@ -36,7 +36,6 @@ body{
 }
 .cont-score{
     background-color: #847996;
-    max-width: 220px;
     height: 100px;
     border-radius: 4px;
     margin: 0 100px;
@@ -44,15 +43,15 @@ body{
     margin-bottom: 40px;
 }
 .score-p{
-    padding-top: 9px;
-    padding-left: 32.75px;
-    padding-right: 32.75px;
-    padding-bottom: 0;
+    margin: 10px 37px 0 38px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 1.2;
+    font-size: 30px;
+    line-height: 35px;
     color: #FFFFFF;
-    margin: 0;
+    /* margin: 0; */
+    width: 145px;
+    height: 35px;
+    display: inline-block;
 }
 .score-num{
     width: 37px;
@@ -75,8 +74,8 @@ body{
     margin-bottom: 17px;
 }
 .sec-num{
-    width: 78px;
-    height: 42px;
+    max-width: 78px;
+    max-height: 42px;
     color: #ffffff;
     font-weight: 400;
     font-size: 36px;
@@ -89,7 +88,7 @@ body{
     margin-top: 14px;
 }
 
-.zero{
+.timer{
     margin: 0 200px;
     width: 20px;
     height: 42px;
@@ -142,73 +141,73 @@ body{
     background-color: #847996;
     width: 400px;
     height: 185px;
-    margin: 0 400px;
+    margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 40px;
 }
 .score-p{
-    padding-top: 9px;
-    padding-left: 32.75px;
-    padding-right: 32.75px;
-    padding-bottom: 0;
+    margin: 20px 82px 0 83px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 1.2;
+    font-size: 48px;
+    line-height: 58px;
     color: #FFFFFF;
-    margin: 0;
+    /* margin: 0; */
+    width: 235px;
+    height: 55px;
 }
 .score-num{
-    width: 37px;
-    height: 30px;
+    width: 60px;
+    height: 50px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 1.2;
+    font-size: 48px;
+    line-height: 56px;
     color: #FFFFFF;
-    margin: 15px 91px 10px 92px;
+    margin: 40px 170px 20px;
 } 
 .sec-btn{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     background-color: #D0A98F;
     border-color: transparent;
     padding: 0;
     border: 0px;
-    margin: 0 60px;
-    margin-bottom: 17px;
+    margin: 0 auto;
 }
 .sec-num{
-    width: 78px;
-    height: 42px;
+    max-width: 130px;
+    max-height: 70px;
     color: #ffffff;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 1.2;
-    margin: 129px 111px;
+    font-size: 60px;
+    line-height: 70px;
+    margin: 215px auto;
 }
 .click-num{
     margin: 0;
-    padding: 0 103px 15px 103px;
-    margin-top: 14px;
+    padding: 0 175px 15px;
+    margin-top: 11px;
 }
 
-.zero{
-    margin: 0 200px;
-    width: 20px;
-    height: 42px;
+.timer{
+    margin: 0 auto;
+    width: 40px;
+    height: 90px;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    margin-bottom: 40px;
+    font-size: 72px;
+    line-height: 90px;
+    margin-bottom: 50px;
 }
 
 .cont-restart{
-    margin: 0 120px 43px;
+    margin: 20px auto 80px;
+    width: 300px;
+    height: 80px;
 }
 
 .restart-btn{
-    width: 180px;
-    height: 60px;
+    width: 300px;
+    height: 80px;
     background: #A7CAB1;
     border-radius: 10px;
     padding: 0;
@@ -220,19 +219,24 @@ body{
 }
 
 .cont-click{
-    width: 240px;
-    height: 100px;
-    margin: 0 90px 50px;
+    width: 400px;
+    height: 125px;
+    margin: 0 auto 90px;
     background: #847996;
     border-radius: 4px;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 36px;
+    line-height: 42px;
 }
 
 .click-p{
     margin: 0;
-    padding: 15px 31px 0 32px;
+    padding: 15px 67px 0 68px;
+}
+.cont-sec{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
 }
 }
