@@ -6,32 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+<!-- <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<button id="startButton">Start</button>
+<p>Score=<p id="clicker" class="score">0</p></p>
+<p>Time=<p id="timer">10</p></p>
+<p>Best Score=<p id="bestScore">0</p></p>
+<p>Clicks Per Second=<p id="clickPerSecond"></p></p>
+<button id="tryAgainButton">Try Again</button>
+<script src="script.js"></script>
+<form action="">
+    <input type="text" id="name-input">
+    <input type="text" id="color-input">
+</form> -->
 <body>
      <main>
         <div class="container">
             <section class="clicker">
+                <div class="users">
+                    <form action="">
+                    <input type="text" class="user-input" id="users">
+                    <input type="submit" value="enter">
+                </form>
+            </div>
                 <div class="cont-score">
                 <p class="score-p">Best Score</p>
-                <p class="score-num">70</p>
+                <p class="score-num" id="bestScore">0</p>
             </div>
-            <p class="zero">0</p>
+            <p class="timer" id="timer">0</p>
             <div class="cont-sec">
-                <button class="sec-btn" type="button">
+                <button class="sec-btn"  id="startButton">
                 <p class="sec-num">start</p>
                 </button>
             </div>
             <div class="cont-restart">
-                <button class="restart-btn" type="button">Try again</button>
+                <button class="restart-btn" type="button" id="tryAgainButton">Try again</button>
             </div>
             <div class="cont-click">
                 <p class="click-p">Click per second</p>
-                <p class="click-num">1.2</p>
+                <p class="click-num" id="clickPerSecond"></p>
             </div>
             </section>
         </div>
     </div>
     </main> 
+<script src="./script.js"></script>
 </body>
 </html>
